@@ -1,5 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.content {
+  height: 100vh;
+  background-color: #f5e2c8;
+  color: #34312d;
+}
+
+.content div {
+  padding: 20px;
+}
+
+.content div h2 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content div h3 {
+  font-weight: 700;
+  padding-left: 25px;
+  border-bottom-left-radius: 20px;
+  background-color: #34312d0a;
+}
+
+.content div h4 {
+  font-weight: 300;
+  padding-left: 25px;
+  font-size: 24px;
+  border-bottom-left-radius: 25px;
+  background-color: #34312d05;
+}
+
+.content .num {
+  text-align: end;
+}
+
+.content footer {
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  font-weight: 500;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -20,6 +62,7 @@ body {
 .intro {
   background: radial-gradient(#f5e2c8, #34312d);
   color: #f5e2c8;
+  height: 100vh;
 }
 
 .name {
