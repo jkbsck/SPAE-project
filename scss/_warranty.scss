@@ -1,0 +1,55 @@
+.warranty {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: $color-dark;
+  .container-fluid {
+    height: 80vh;
+    .row {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      padding: 50px;
+      .bottom-border {
+        border-bottom: solid 1px;
+      }
+    }
+  }
+  h5 {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  h6 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: start;
+  }
+  p, li {
+    text-align: start;
+    padding-left: 20px;
+  }
+  .service {
+    h6 {
+      text-align: center;
+      font-weight: 500;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    h5 {
+      text-align: right;
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 16px;
+    }
+  }
+}

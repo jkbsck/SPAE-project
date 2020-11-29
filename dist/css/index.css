@@ -30,7 +30,7 @@
 }
 
 .content .num {
-  text-align: end;
+  text-align: center;
 }
 
 .package {
@@ -68,9 +68,9 @@
 
 .package .container-fluid .row :nth-child(6) {
   background: url(/img/stick-opener.png);
-  background-size: 300px;
+  background-size: 200px;
   background-repeat: no-repeat;
-  background-position: 200px 30px;
+  background-position: 250px 56px;
 }
 
 .manual {
@@ -443,10 +443,11 @@
 }
 
 .recyclation .ce div {
-  height: 10vh;
+  height: 7vh;
   background: url(/img/ce.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-x: 20px;
 }
 
 .recyclation .rohs {
@@ -572,6 +573,7 @@
 .contact .container-fluid h2 {
   text-align: center;
   font-family: 'Righteous';
+  font-size: 40px;
 }
 
 .contact h5 {
@@ -633,6 +635,84 @@
 
 .contact u {
   color: #1892f0;
+}
+
+.warranty {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.warranty header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warranty .container-fluid {
+  height: 80vh;
+}
+
+.warranty .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.warranty .container-fluid .row .bottom-border {
+  border-bottom: solid 1px;
+}
+
+.warranty h5 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.warranty h6 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: start;
+}
+
+.warranty p, .warranty li {
+  text-align: start;
+  padding-left: 20px;
+}
+
+.warranty .service h6 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.warranty .service p {
+  text-align: center;
+}
+
+.warranty .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.warranty .wrapper h5 {
+  text-align: right;
+  font-size: 20px;
+}
+
+.warranty .wrapper h6 {
+  font-size: 16px;
 }
 
 * {

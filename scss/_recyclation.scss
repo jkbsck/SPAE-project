@@ -40,10 +40,11 @@
     display: flex;
     justify-content: end; 
     div {
-      height: 10vh;
+      height: 7vh;
       background: url(/img/ce.png);
       background-repeat: no-repeat;
       background-size: contain;
+      background-position-x: 20px;
     }
   }
   .rohs {
