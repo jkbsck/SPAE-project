@@ -1,0 +1,22 @@
+.operation {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: $color-dark;
+  .container-fluid {
+    height: 80vh;
+    .row {
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 50px;
+    }
+  }
+  h5 {
+    font-weight: 400;
+    display: list-item;
+  }
+}

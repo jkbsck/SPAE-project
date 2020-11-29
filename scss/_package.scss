@@ -1,6 +1,5 @@
 .package {
-  font-family: 'Roboto', sans-serif;
-  background-color: $color-light;
+  background: radial-gradient(#ffffff, #f5e2c8);
   color: $color-dark;
   height: 100vh;
   .container-fluid {
@@ -13,15 +12,16 @@
         align-items: center;
       }
       :nth-child(2) {
-        background-color: lightgreen;
         background: url(/img/logo-img-front.png);
-        background-repeat: repeat-x;
+        background-repeat: no-repeat;
         background-size: 240px;
-        background-position: 20px 80px;
+        background-position: 230px 80px;
       }
       :nth-child(6) {
-        background: url(../../../Downloads/stock-vector-sim-pin-icon-442711318.jpg);
-        background-size: contain;
+        background: url(/img/stick-opener.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: 200px 30px;
       }
     }
   }

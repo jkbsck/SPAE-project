@@ -1,0 +1,24 @@
+.characteristics {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: $color-dark;
+  .container-fluid {
+    height: 80vh;
+    width: 80%;
+    .row {
+      div {
+        height: 13vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.manual {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: $color-dark;
+  .container-fluid {
+    height: 80vh;
+    .row {
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+        font-size: 20px;
+      }
+    }
+  }
+  svg {
+    margin-top: 200px;
+  }
+}

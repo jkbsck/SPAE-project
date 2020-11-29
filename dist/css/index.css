@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .content {
   height: 100vh;
-  background-color: #f5e2c8;
+  background: radial-gradient(#ffffff, #f5e2c8);
   color: #34312d;
 }
 
@@ -34,8 +34,7 @@
 }
 
 .package {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f5e2c8;
+  background: radial-gradient(#ffffff, #f5e2c8);
   color: #34312d;
   height: 100vh;
 }
@@ -61,16 +60,245 @@
 }
 
 .package .container-fluid .row :nth-child(2) {
-  background-color: lightgreen;
   background: url(/img/logo-img-front.png);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-size: 240px;
-  background-position: 20px 80px;
+  background-position: 230px 80px;
 }
 
 .package .container-fluid .row :nth-child(6) {
-  background: url(../../../Downloads/stock-vector-sim-pin-icon-442711318.jpg);
-  background-size: contain;
+  background: url(/img/stick-opener.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 200px 30px;
+}
+
+.manual {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.manual .container-fluid {
+  height: 80vh;
+}
+
+.manual .container-fluid .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 15vh;
+  font-size: 20px;
+}
+
+.manual svg {
+  margin-top: 200px;
+}
+
+.characteristics {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.characteristics header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.characteristics .container-fluid {
+  height: 80vh;
+  width: 80%;
+}
+
+.characteristics .container-fluid .row div {
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.installation {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.installation header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.installation .container-fluid {
+  height: 80vh;
+}
+
+.installation .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.installation .container-fluid .row div {
+  height: 9vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.installation .container-fluid .row :nth-child(1) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.installation img {
+  width: 100px;
+}
+
+.installation .wrapper {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.installation .wrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+}
+
+.installation h5 {
+  font-weight: 400;
+}
+
+.operation {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.operation header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.operation .container-fluid {
+  height: 80vh;
+}
+
+.operation .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.operation h5 {
+  font-weight: 400;
+  display: list-item;
+}
+
+.maintenance {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.maintenance header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maintenance .container-fluid {
+  height: 80vh;
+}
+
+.maintenance .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.maintenance h5 {
+  font-weight: 400;
+  display: list-item;
 }
 
 * {
@@ -184,11 +412,11 @@ footer {
   background-position: 160px 80px;
 }
 
-.manual {
+.index-manual {
   height: 10vh;
 }
 
-.manual h2 {
+.index-manual h2 {
   font-size: 40px;
 }
 

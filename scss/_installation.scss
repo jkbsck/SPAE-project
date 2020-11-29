@@ -1,0 +1,46 @@
+.installation {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: $color-dark;
+  .container-fluid {
+    height: 80vh;
+    .row {
+      justify-content: center;
+      div {
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+      }
+      :nth-child(1) {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        flex: wrap;
+      }
+    }
+  }
+  img {
+    width: 100px;
+  }
+  .wrapper {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+  }
+  h5 {
+    font-weight: 400;
+  }
+}
