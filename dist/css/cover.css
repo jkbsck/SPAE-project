@@ -85,8 +85,36 @@ body {
   background: linear-gradient(bottom, #34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
 }
 
+.upper-layer .container-fluid .row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .upper-layer .container-fluid .row .certification {
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.upper-layer .container-fluid .row .certification div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .upper-layer .container-fluid .row .certification .ce img {
@@ -95,6 +123,70 @@ body {
 
 .upper-layer .container-fluid .row .certification .rohs img {
   width: 50px;
+}
+
+.upper-layer .container-fluid .row .certification .triangle img {
+  width: 50px;
+}
+
+.upper-layer .container-fluid .row .certification .bin img {
+  width: 50px;
+}
+
+.upper-layer .container-fluid .row .certification .bin2 img {
+  width: 40px;
+}
+
+.upper-layer .container-fluid .row .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(1) * {
+  border-bottom: solid 1px;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(1) :nth-child(1) {
+  border: none;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(1) :nth-child(3) {
+  border: none;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(1) :nth-child(4) {
+  border: none;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(1) :nth-child(6) {
+  border: none;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(2) img:nth-child(1) {
+  width: 120px;
+}
+
+.upper-layer .container-fluid .row .table div:nth-child(2) img:nth-child(2) {
+  width: 120px;
 }
 
 .img-wrapper .index-image {

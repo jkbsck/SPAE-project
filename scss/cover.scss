@@ -78,8 +78,17 @@ body {
   background: linear-gradient(bottom,#34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
   .container-fluid {
     .row {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
       .certification {
         height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        div {
+          display: flex;
+          align-items: center;
+        }
         .ce {
           img {
             width: 50px;
@@ -88,6 +97,55 @@ body {
         .rohs {
           img {
             width: 50px;
+          }
+        }
+        .triangle {
+          img {
+            width: 50px;
+          }
+        }
+        .bin {
+          img {
+            width: 50px;
+          }
+        }
+        .bin2 {
+          img {
+            width: 40px;
+          }
+        }
+      }
+      .table {
+        display: flex;
+        border: solid 1px;
+        border-radius: 10px;
+        div:nth-child(1) {
+          * {
+            border-bottom: solid 1px;
+          }
+          :nth-child(1) {
+            border: none;
+          }
+          :nth-child(3) {
+            border: none;
+          }
+          :nth-child(4) {
+            border: none;
+          }
+          :nth-child(6) {
+            border: none;
+          }
+        }
+        div:nth-child(2) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          img:nth-child(1) {
+            width: 120px;
+          }
+          img:nth-child(2) {
+            width: 120px;
           }
         }
       }
