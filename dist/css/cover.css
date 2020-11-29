@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5e2c8;
+  color: #34312d;
+  width: 1000px;
+  height: 1200px;
+  overflow: hidden;
+}
+
+.cover {
+  background: radial-gradient(#f5e2c8, #34312d);
+  color: #f5e2c8;
+  height: 1200px;
+  width: 1000px;
+}
+
+.container-fluid .row {
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .row .wrapper {
+  position: relative;
+  top: 30px;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: 100px;
+}
+
+.container-fluid .row .wrapper h1 {
+  text-align: end;
+  font-size: 120px;
+  font-family: 'Righteous', cursive;
+}
+
+.container-fluid .row .description {
+  position: relative;
+  top: 15px;
+  right: 20px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container-fluid .row svg {
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  scale: 1.5;
+}
+
+.upper-layer {
+  position: relative;
+  width: 1000px;
+  height: 1200px;
+  top: -1200px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#34312da6), color-stop(15%, #f5e2c866), color-stop(50%, #e8dfcc44), to(#ffffff11));
+  background: linear-gradient(bottom, #34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
+}
+
+.upper-layer .container-fluid .row .certification {
+  height: 50px;
+}
+
+.upper-layer .container-fluid .row .certification .ce img {
+  width: 50px;
+}
+
+.upper-layer .container-fluid .row .certification .rohs img {
+  width: 50px;
+}
+
+.img-wrapper .index-image {
+  width: 1000px;
+  height: 1000px;
+  background: url(/img/logo-img-detail2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=cover.css.map */
