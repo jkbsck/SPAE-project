@@ -5,6 +5,7 @@ $color-dark: #34312d;
 // IMPORTS
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
 
 // CONFIG
 * {
@@ -31,6 +32,20 @@ body {
   color: $color-light;
   height: 1200px;
   width: 1000px;
+  overflow: hidden;
+  .hook {
+    position: absolute;
+    margin-top: -10px;
+    font-family: 'Nunito', sans-serif;
+    width: 900px;
+    h2 {
+      color: #f5e2c8;
+      font-size: 24px;
+      padding: 15px;
+      background: linear-gradient(left, #34312dda, #34312d01);
+      border-top-left-radius: 20px;
+    }
+  }
 }
 
 .container-fluid {
@@ -75,43 +90,53 @@ body {
   width: 1000px;
   height: 1200px;
   top: -1200px;
-  background: linear-gradient(bottom,#34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
+  // background: linear-gradient(bottom,#34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
+  border: solid 10px rgba(252, 193, 0, 0.5);
+  // border-bottom: none;
   .container-fluid {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
     .row {
-      flex-direction: row;
+      flex-direction: column;
       justify-content: flex-start;
-      align-items: center;
+      align-items: flex-start;
       .certification {
         height: 50px;
         display: flex;
         justify-content: space-evenly;
+        border: solid 1px;
+        border-radius: 10px;
+        position: relative;
+        background: #dddddd88;
         div {
           display: flex;
           align-items: center;
+          padding: 10px;
         }
         .ce {
           img {
-            width: 50px;
+            width: 40px;
           }
         }
         .rohs {
           img {
-            width: 50px;
+            width: 40px;
           }
         }
         .triangle {
           img {
-            width: 50px;
+            width: 40px;
           }
         }
         .bin {
           img {
-            width: 50px;
+            width: 40px;
           }
         }
         .bin2 {
           img {
-            width: 40px;
+            width: 30px;
           }
         }
       }
@@ -119,6 +144,8 @@ body {
         display: flex;
         border: solid 1px;
         border-radius: 10px;
+        background: #dddddd88;
+        padding: 10px 0px;
         div:nth-child(1) {
           * {
             border-bottom: solid 1px;
@@ -141,6 +168,8 @@ body {
           flex-direction: column;
           align-items: center;
           justify-content: space-evenly;
+          border-left: solid 1px;
+          padding-left: 20px;
           img:nth-child(1) {
             width: 120px;
           }

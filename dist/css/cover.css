@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -25,6 +26,23 @@ body {
   color: #f5e2c8;
   height: 1200px;
   width: 1000px;
+  overflow: hidden;
+}
+
+.cover .hook {
+  position: absolute;
+  margin-top: -10px;
+  font-family: 'Nunito', sans-serif;
+  width: 900px;
+}
+
+.cover .hook h2 {
+  color: #f5e2c8;
+  font-size: 24px;
+  padding: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#34312dda), to(#34312d01));
+  background: linear-gradient(left, #34312dda, #34312d01);
+  border-top-left-radius: 20px;
 }
 
 .container-fluid .row {
@@ -81,21 +99,26 @@ body {
   width: 1000px;
   height: 1200px;
   top: -1200px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#34312da6), color-stop(15%, #f5e2c866), color-stop(50%, #e8dfcc44), to(#ffffff11));
-  background: linear-gradient(bottom, #34312da6, #f5e2c866 15%, #e8dfcc44 50%, #ffffff11);
+  border: solid 10px rgba(252, 193, 0, 0.5);
+}
+
+.upper-layer .container-fluid {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .upper-layer .container-fluid .row {
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .upper-layer .container-fluid .row .certification {
@@ -106,6 +129,10 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  border: solid 1px;
+  border-radius: 10px;
+  position: relative;
+  background: #dddddd88;
 }
 
 .upper-layer .container-fluid .row .certification div {
@@ -115,26 +142,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px;
 }
 
 .upper-layer .container-fluid .row .certification .ce img {
-  width: 50px;
+  width: 40px;
 }
 
 .upper-layer .container-fluid .row .certification .rohs img {
-  width: 50px;
+  width: 40px;
 }
 
 .upper-layer .container-fluid .row .certification .triangle img {
-  width: 50px;
+  width: 40px;
 }
 
 .upper-layer .container-fluid .row .certification .bin img {
-  width: 50px;
+  width: 40px;
 }
 
 .upper-layer .container-fluid .row .certification .bin2 img {
-  width: 40px;
+  width: 30px;
 }
 
 .upper-layer .container-fluid .row .table {
@@ -143,6 +171,8 @@ body {
   display: flex;
   border: solid 1px;
   border-radius: 10px;
+  background: #dddddd88;
+  padding: 10px 0px;
 }
 
 .upper-layer .container-fluid .row .table div:nth-child(1) * {
@@ -179,6 +209,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  border-left: solid 1px;
+  padding-left: 20px;
 }
 
 .upper-layer .container-fluid .row .table div:nth-child(2) img:nth-child(1) {
