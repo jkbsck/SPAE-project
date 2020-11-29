@@ -1,4 +1,4 @@
-.maintenance {
+.declaration {
   header {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     .row {
       justify-content: center;
       align-items: center;
-      text-align: center;
+      text-align: justify;
       height: 100%;
       padding: 50px;
     }

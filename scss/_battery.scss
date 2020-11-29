@@ -1,4 +1,4 @@
-.maintenance {
+.battery {
   header {
     display: flex;
     flex-direction: column;
@@ -14,6 +14,17 @@
       text-align: center;
       height: 100%;
       padding: 50px;
+      :nth-child(1) {
+        height: 30vh;
+        padding-top: 50px;
+      }
+      :nth-child(2) {
+        height: 50vh;
+        padding-top: 50px;
+        background: url(/img/logo-img-back-battery.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
     }
   }
   h5 {
@@ -23,5 +34,13 @@
   h6 {
     font-weight: 400;
     font-size: 20px;
+  }
+  .battery-recycle {
+    width: 200px;
+  }
+  svg {
+    position: absolute;
+    top: -100px;
+    left: 185px;
   }
 }

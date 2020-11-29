@@ -292,13 +292,224 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   height: 100%;
   padding: 50px;
 }
 
 .maintenance h5 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.maintenance h6 {
   font-weight: 400;
-  display: list-item;
+  font-size: 20px;
+}
+
+.battery {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.battery header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.battery .container-fluid {
+  height: 80vh;
+}
+
+.battery .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.battery .container-fluid .row :nth-child(1) {
+  height: 30vh;
+  padding-top: 50px;
+}
+
+.battery .container-fluid .row :nth-child(2) {
+  height: 50vh;
+  padding-top: 50px;
+  background: url(/img/logo-img-back-battery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.battery h5 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.battery h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.battery .battery-recycle {
+  width: 200px;
+}
+
+.battery svg {
+  position: absolute;
+  top: -100px;
+  left: 185px;
+}
+
+.recyclation {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.recyclation header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.recyclation .container-fluid {
+  height: 80vh;
+}
+
+.recyclation .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.recyclation h5 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.recyclation h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.recyclation .bin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.recyclation .bin div {
+  height: 10vh;
+  background: url(/img/recycle-bin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-position-x: 40px;
+}
+
+.recyclation .ce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.recyclation .ce div {
+  height: 10vh;
+  background: url(/img/ce.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.recyclation .rohs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.recyclation .rohs div {
+  height: 10vh;
+  background: url(/img/Rohs-01.png);
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: 8px -18px;
+}
+
+.recyclation .bottom-border {
+  border-bottom: solid 1px #34312d;
+}
+
+.declaration {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #f5e2c8);
+  color: #34312d;
+}
+
+.declaration header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.declaration .container-fluid {
+  height: 80vh;
+}
+
+.declaration .container-fluid .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  height: 100%;
+  padding: 50px;
+}
+
+.declaration h5 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.declaration h6 {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 * {
