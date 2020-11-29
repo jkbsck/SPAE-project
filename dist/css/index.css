@@ -6,14 +6,12 @@
   color: #34312d;
 }
 
-.content div {
-  padding: 20px;
+.content .container-fluid {
+  height: 80vh;
 }
 
-.content div h2 {
-  font-weight: 900;
-  font-size: 40px;
-  text-align: center;
+.content div {
+  padding: 20px;
 }
 
 .content div h3 {
@@ -35,11 +33,44 @@
   text-align: end;
 }
 
-.content footer {
-  text-align: center;
-  position: relative;
-  bottom: 0px;
-  font-weight: 500;
+.package {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5e2c8;
+  color: #34312d;
+  height: 100vh;
+}
+
+.package .container-fluid {
+  height: 80vh;
+}
+
+.package .container-fluid .row {
+  height: 100%;
+}
+
+.package .container-fluid .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.package .container-fluid .row :nth-child(2) {
+  background-color: lightgreen;
+  background: url(/img/logo-img-front.png);
+  background-repeat: repeat-x;
+  background-size: 240px;
+  background-position: 20px 80px;
+}
+
+.package .container-fluid .row :nth-child(6) {
+  background: url(../../../Downloads/stock-vector-sim-pin-icon-442711318.jpg);
+  background-size: contain;
 }
 
 * {
@@ -57,6 +88,46 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5e2c8;
   color: #34312d;
+}
+
+header {
+  position: relative;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#34312d), color-stop(95%, #34312dc0), to(#f5e2c8));
+  background: linear-gradient(top, #34312d, #34312dc0 95%, #f5e2c8);
+  color: #f5e2c8;
+}
+
+header h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  font-weight: 500;
+  background: -webkit-gradient(linear, left bottom, left top, from(#34312d), color-stop(95%, #34312dc0), to(#f5e2c8));
+  background: linear-gradient(bottom, #34312d, #34312dc0 95%, #f5e2c8);
+  color: #f5e2c8;
 }
 
 .intro {

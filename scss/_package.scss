@@ -1,0 +1,29 @@
+.package {
+  font-family: 'Roboto', sans-serif;
+  background-color: $color-light;
+  color: $color-dark;
+  height: 100vh;
+  .container-fluid {
+    height: 80vh;
+    .row {
+      height: 100%;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      :nth-child(2) {
+        background-color: lightgreen;
+        background: url(/img/logo-img-front.png);
+        background-repeat: repeat-x;
+        background-size: 240px;
+        background-position: 20px 80px;
+      }
+      :nth-child(6) {
+        background: url(../../../Downloads/stock-vector-sim-pin-icon-442711318.jpg);
+        background-size: contain;
+      }
+    }
+  }
+}
+
