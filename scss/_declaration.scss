@@ -24,4 +24,20 @@
     font-weight: 400;
     font-size: 20px;
   }
+  p, li {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .signature-wrapper {
+    display: flex;
+    .signature {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .dot-border {
+    margin-top: 30px;
+    border-top: dotted 1px;
+    text-align: center;
+  }
 }
