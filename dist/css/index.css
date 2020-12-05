@@ -522,15 +522,29 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
 }
 
 .declaration .signature-wrapper .signature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.declaration .signature-wrapper .signature :nth-child(1) {
+  margin-bottom: -30px;
+  color: #0a1657;
+  min-height: 15px;
 }
 
 .declaration .dot-border {
