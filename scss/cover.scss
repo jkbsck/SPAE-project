@@ -23,7 +23,7 @@ body {
   color: $color-dark;
   width: 1000px;
   height: 1200px;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 // COVER
@@ -191,4 +191,20 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
+}
+
+.short {
+  height: 100px;
+  width: 1000px;
+  background-color: rgba(252, 193, 0, 0.5);
+  position: absolute;bottom: 110px;
+  z-index: 1;
+}
+.long {
+  height: 100px;
+  width: 1200px;
+  background-color: rgba(252, 193, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
 }
